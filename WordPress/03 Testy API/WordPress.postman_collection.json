@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "c2249907-49d2-4e28-9bb9-07f5f49675d8",
+		"name": "WordPress",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetPosts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreatePost",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "VkiS 30zj kLvz qZ6u esMo XdmW",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/posts?title=111225",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"posts"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "111225"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPostsAuthor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/posts?author=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"posts"
+					],
+					"query": [
+						{
+							"key": "author",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMedia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/media",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"media"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetStatuses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/statuses/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"statuses",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "pass",
+			"value": "j65p iPa3 rlM2 duFx EiHn 2vLK",
+			"type": "default"
+		}
+	]
+}
