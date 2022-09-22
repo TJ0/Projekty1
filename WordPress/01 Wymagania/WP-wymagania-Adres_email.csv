@@ -2,10 +2,10 @@ ID,Wymaganie
 1,1. Format - adres posiadający znak '@' oraz '.' w odpowiedniej kolejności.
 2,2. Unikalny mail nie może wystąpić wraz z istniejącą już w aplikacji nazwą użytkownika.
 3,3. Format - brak znaków diakrytycznych.
-4,4. Format - czy można używać symboli ???
+4,4. Format - czy można używać symboli ?
 5,"- tak, ale nie jako pierwszy znak w adresie"
-6,5. Format - czy wielkość liter ma znaczenie ??
-7,- nie
+6,Format - czy wielkość liter ma znaczenie ??
+7,dsfsfsf
 8,6. Format - czy można użyć cyfr ????
 9,- tak
 10,7. Jaka jest dozwolona ilość znaków dla całego adresu ?
